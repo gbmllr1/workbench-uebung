@@ -1,0 +1,122 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://gbmllr1.github.io/workbench-uebung/manifests/F-kwj7.manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Antwerpen, Erfgoedbibliotheek Hendrik Conscience, Fragm. 214",
+  "metadata" : [ {
+    "label" : "Location",
+    "value" : "Antwerpen"
+  }, {
+    "label" : "Collection Name",
+    "value" : "Erfgoedbibliotheek Hendrik Conscience"
+  }, {
+    "label" : "Shelfmark",
+    "value" : "Fragm. 214"
+  }, {
+    "label" : "Title",
+    "value" : "Liturgical manuscript with noted music"
+  }, {
+    "label" : "Fragmentarium ID",
+    "value" : "F-kwj7"
+  }, {
+    "label" : "Material",
+    "value" : "Parchment"
+  }, {
+    "label" : "Document Type",
+    "value" : "Fragment"
+  }, {
+    "label" : "Number of Fragment Items",
+    "value" : "1 strip"
+  }, {
+    "label" : "Current Dimensions (in mm)",
+    "value" : "22 x 50 mm"
+  }, {
+    "label" : "Online Since",
+    "value" : "2023-07-26"
+  }, {
+    "label" : "Date of origin",
+    "value" : "1401 – 1500 CE"
+  }, {
+    "label" : "Tags",
+    "value" : "Topic: Liturgy"
+  }, {
+    "label" : "Century",
+    "value" : "15th century"
+  }, {
+    "label" : "Decoration",
+    "value" : "Red"
+  }, {
+    "label" : "Decoration",
+    "value" : "Initial"
+  }, {
+    "label" : "Musical Notation",
+    "value" : "Neumes on Staves"
+  } ],
+  "description" : [ {
+    "@value" : "[no description]",
+    "@language" : "en"
+  } ],
+  "license" : "http://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution" : "Fragmentarium – International Digital Research Lab for Medieval Manuscript Fragments",
+  "logo" : "https://fragmentarium.ms/img/fragmentarium-logo-sm-square.png",
+  "service" : "https://fragmentarium.ms/search/",
+  "seeAlso" : "https://fragmentarium.ms/overview/F-kwj7",
+  "within" : "https://fragmentarium.ms/metadata/iiif/collection/C-yyuw.json",
+  "sequences" : [ {
+    "@id" : "https://fragmentarium.ms/metadata/iiif/F-kwj7/sequence/Sequence-7917.json",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "https://fragmentarium.ms/metadata/iiif/F-kwj7/canvas/F-kwj7/fol_1r.jp2.json",
+      "@type" : "sc:Canvas",
+      "label" : "fol. [1]r",
+      "height" : 1112,
+      "width" : 2478,
+      "images" : [ {
+        "@id" : "https://fragmentarium.ms/metadata/iiif/F-kwj7/annotation/F-kwj7/fol_1r.jp2.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://fragmentarium.ms/metadata/iiif/F-kwj7/canvas/F-kwj7/fol_1r.jp2.json",
+        "resource" : {
+          "@id" : "https://fragmentarium.ms:443/loris/F-kwj7/fol_1r.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1112,
+          "width" : 2478,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://fragmentarium.ms:443/loris/F-kwj7/fol_1r.jp2",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://fragmentarium.ms/metadata/iiif/F-kwj7/canvas/F-kwj7/fol_1v.jp2.json",
+      "@type" : "sc:Canvas",
+      "label" : "fol. [1]v",
+      "height" : 1225,
+      "width" : 2420,
+      "images" : [ {
+        "@id" : "https://fragmentarium.ms/metadata/iiif/F-kwj7/annotation/F-kwj7/fol_1v.jp2.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://fragmentarium.ms/metadata/iiif/F-kwj7/canvas/F-kwj7/fol_1v.jp2.json",
+        "resource" : {
+          "@id" : "https://fragmentarium.ms:443/loris/F-kwj7/fol_1v.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 1225,
+          "width" : 2420,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://fragmentarium.ms:443/loris/F-kwj7/fol_1v.jp2",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        }
+      } ]
+    } ]
+  } ]
+}

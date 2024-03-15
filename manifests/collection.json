@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://gbmllr1.github.io/workbench-uebung/manifests/F-kwj7.manifest.json",
     "label" : "Antwerpen, Erfgoedbibliotheek Hendrik Conscience, Fragm. 214"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://gbmllr1.github.io/workbench-uebung/manifests/Fkwj7manifest.json",
+    "label" : "Antwerpen, Erfgoedbibliotheek Hendrik Conscience, Fragm. 214"
   } ]
 }
